@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: powderblue;
+    box-shadow: 0 0 10px rgba(153, 186, 190, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: darkblue;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.ai-section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px; /* Smaller gap between text and image */
+    margin-top: 20px;
+}
+
+.ai-text {
+    flex: 2;
+    padding-right: 1px; /* Smaller space between text and image */
+}
+
+.ai-image {
+    flex: 1;
+     padding-right: 500px;
+}
+
+.ai-image img {
+    width: 500%;
+    max-width: 300px; /* Slightly smaller image */
+    border-radius: 8px;
+    display: block;
+}
+
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.alert-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.alert-button:hover {
+    background-color: darkblue;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+}
